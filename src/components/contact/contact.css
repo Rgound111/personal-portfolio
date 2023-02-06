@@ -1,0 +1,25 @@
+#contact{
+    height: 40vh;
+}
+
+.contact__container p {
+    font-size: 0.8rem;
+    margin: 0.8rem 0 2rem;
+   color: var(--color-light);
+}
+
+.contact_icon{
+   display: flex;
+   align-items: center;
+ column-gap: 1.5rem;
+  
+}
+
+.contact_icon-1 {
+    font-size: 27px;
+    color: var(--color-primary);
+}
+
+.contact_icon-2 small {
+     color: var(--color-light);
+}

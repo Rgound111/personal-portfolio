@@ -1,0 +1,14 @@
+#footer{
+    height: 10vh;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: start;
+    column-gap: 1.5rem;
+    font-size: 1.2rem
+}
+
+.footer__clr{
+    color: var(--color-primary);
+}
