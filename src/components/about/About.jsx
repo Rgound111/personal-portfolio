@@ -24,11 +24,11 @@ const About = () => {
             <li>I'm always up to learn new things</li>
           </ul>
 
-    <div className="center">
-    <a href="#contact" className='btn btn-primary    '>Let's Talk</a>
-    </div>
+          <div >
+            <a href="#contact" className='btn btn-primary '>Let's Talk</a>
+          </div>
 
-          
+
         </div>
 
       </div>

@@ -120,10 +120,6 @@ img{
   object-fit:  cover;
 }
 
-.center{
-  text-align: center;
-  
-}
 /* ============= MEDIA QUERY (MEDIUM DEVICES) ===========*/
 
 @media screen and (max-width: 1024px) {
