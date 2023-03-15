@@ -1,0 +1,149 @@
+#mywork {
+    margin-top: 4rem;
+    height: 170vh;
+    width: 100%;
+}
+
+
+.work__head {
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem 0;
+    margin: 1rem 0;
+}
+
+.container-w {
+    width: 100%;
+}
+
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8%;
+}
+
+
+.box {
+    width: 33%;
+    margin: 0 1% 0 1%;
+    height: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+#image {
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    padding: 10px;
+    color: black;
+    line-height: 1.2;
+}
+
+.text h2 {
+    margin: 5px 0;
+}
+
+.overlay {
+    position: absolute;
+    height: 300px;
+    width: 350px;
+    opacity: 0;
+    /* background-color: rgba(52, 124, 233, 0.7); */
+}
+
+.box:hover .overlay {
+    opacity: 1;
+}
+
+.overlayfade {
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    left: 0%;
+    top: -5%;
+    transition: all 0.3s ease;
+    background-color: rgb(41, 103, 238);
+    border-radius: 8px;
+}
+
+.btn-w {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: .5rem 1.4rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.btn-w :hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+/* ============= MEDIA QUERY (MEIDUM DEVICES) ===========*/
+
+@media screen and (max-width: 1070px) {
+
+    #mywork {
+        height: 280vh;
+    }
+
+    .work-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .box {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .box {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .box {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .text {
+        padding: 7px;
+        line-height: 1.1;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .overlay {
+        position: absolute;
+        height: 230px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .overlay {
+        position: absolute;
+        height: 230px;
+        width: 325px;
+    }
+    
+}

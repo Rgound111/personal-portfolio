@@ -52,10 +52,7 @@ const Skill = () => {
               <div className="skill__icon-S"><FiDatabase/></div>
               <p>SQL</p>
           </div>
-          <div className="skill__list">
-              <div className="skill__icon-H"><FaHtml5/></div>
-              <p>HTML</p>
-          </div>
+          
         </div>
       </div>
     </section>

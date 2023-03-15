@@ -59,12 +59,12 @@
     .about__content h2 {
         margin-bottom: 1rem;
     }
-    
+
     .about__content a {
         margin-top: 1.7rem;
     }
 
-    .about__content li{
+    .about__content li {
         font-size: 0.9rem;
         font-weight: 700;
     }
@@ -91,11 +91,9 @@
         text-align: center;
     }
 
-    .about__content li{
+    .about__content li {
         font-size: 0.9rem;
         font-weight: 600;
     }
 
-   
-   
 }
