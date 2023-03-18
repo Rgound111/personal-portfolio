@@ -39,7 +39,8 @@ body{
   background: var(--color-bg) ;
   color: var(--color-white);
   line-height: 1.7rem;
-  background-image: url("./assets/bg-texture.webp");
+  /* background-image: url("./assets/bg-texture.webp"); */
+  background-color:#2c2c6c;
 }
 
 /* ================GENERAL STYLE ===================*/

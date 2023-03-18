@@ -26,11 +26,16 @@
     transform: rotate(0deg);
 }
 
+.about__content{
+    width: 95%;
+}
+
 .about__content h2 {
     margin-bottom: 1.5rem;
 }
 
 .about__content li {
+   
     font-size: 1rem;
     color: var(--color-light);
     font-weight: 800;
@@ -94,6 +99,12 @@
     .about__content li {
         font-size: 0.9rem;
         font-weight: 600;
+    }
+
+    .about__content{
+        width: 85%;
+        padding: 0 7%;
+       
     }
 
 }

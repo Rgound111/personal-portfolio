@@ -1,6 +1,7 @@
 #contact{
     height: 40vh;
     margin-top: 9rem;
+    padding: 0  7%;
 }
 
 .contact__container p {
@@ -13,7 +14,7 @@
    display: flex;
    align-items: center;
  column-gap: 1.5rem;
-  
+ 
 }
 
 .contact_icon-1 {
