@@ -67,7 +67,7 @@
     left: 0%;
     top: -5%;
     transition: all 0.3s ease;
-    background-color: rgb(41, 103, 238);
+    background-color: #4db5ff;
     border-radius: 8px;
 }
 
@@ -94,7 +94,7 @@
 @media screen and (max-width: 1070px) {
 
     #mywork {
-        height: 280vh;
+        height: 380vh;
     }
 
     .work-container {
