@@ -94,7 +94,7 @@
 @media screen and (max-width: 1070px) {
 
     #mywork {
-        height: 380vh;
+        height: 280vh;
     }
 
     .work-container {
@@ -123,6 +123,11 @@
 }
 
 @media screen and (max-width: 500px) {
+
+    #mywork {
+        height: 350vh;
+    }
+
     .text {
         padding: 7px;
         line-height: 1.1;
