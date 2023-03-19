@@ -38,21 +38,6 @@ const Mywork = () => {
         </div>
 
         <div className="box">
-          <img src={Crudapp} alt="Registrationform" id='image' />
-          <div className="overlay overlayfade">
-            <div className="text">
-              <h2>Crudapp </h2>
-              <span> A ReactApp where you can add users personal details , you can  edit and delete that detail.  
-               </span> <br />
-              <h2>Technologies used</h2>
-              <span> React.js ,Json-server , RestApi </span> <br /> <br />
-              <a href="https://papaya-marzipan-f944fd.netlify.app" target={'_blank'} className='btn-w'>Link</a>
-              
-            </div>
-          </div>
-        </div> 
-
-        <div className="box">
           <img src={Realstate} alt="Registrationform" id='image' />
           <div className="overlay overlayfade">
             <div className="text">
@@ -93,6 +78,21 @@ const Mywork = () => {
             </div>
           </div>
         </div>
+
+        <div className="box">
+          <img src={Crudapp} alt="Registrationform" id='image' />
+          <div className="overlay overlayfade">
+            <div className="text">
+              <h2>Crudapp </h2>
+              <span> A ReactApp where you can add users personal details , you can  edit and delete that detail.  
+               </span> <br />
+              <h2>Technologies used</h2>
+              <span> React.js ,Json-server , RestApi </span> <br /> <br />
+              <a href="https://papaya-marzipan-f944fd.netlify.app" target={'_blank'} className='btn-w'>Link</a>
+              
+            </div>
+          </div>
+        </div> 
        
         <div className="box">
           <img src={Restaurant} alt="Restaurant" id='image' />
