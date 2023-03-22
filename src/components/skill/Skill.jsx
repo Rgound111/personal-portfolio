@@ -20,25 +20,17 @@ const Skill = () => {
         </div>
 
         <div className="skills__list">
-          <div className="skill__list">
-              <div className="skill__icon-H"><FaHtml5/></div>
-              <p >HTML</p>
+        <div className="skill__list">
+              <div className="skill__icon-R"><SiReact/></div>
+              <p>React</p>
           </div>
           <div className="skill__list">
-              <div className="skill__icon-C"><FaCss3Alt/></div>
-              <p>CSS</p>
+              <div className="skill__icon-S"><FiDatabase/></div>
+              <p>SQL</p>
           </div>
           <div className="skill__list">
               <div className="skill__icon-J"><IoLogoJavascript/></div>
               <p>JavaScript</p>
-          </div>
-          <div className="skill__list">
-              <div className="skill__icon-B"><SiBootstrap/></div>
-              <p>Bootstrap</p>
-          </div>
-          <div className="skill__list">
-              <div className="skill__icon-R"><SiReact/></div>
-              <p>React</p>
           </div>
           <div className="skill__list">
               <div className="skill__icon-G"><BiGitBranch/></div>
@@ -49,9 +41,23 @@ const Skill = () => {
               <p>Github</p>
           </div>
           <div className="skill__list">
-              <div className="skill__icon-S"><FiDatabase/></div>
-              <p>SQL</p>
+              <div className="skill__icon-B"><SiBootstrap/></div>
+              <p>Bootstrap</p>
           </div>
+          <div className="skill__list">
+              <div className="skill__icon-H"><FaHtml5/></div>
+              <p >HTML</p>
+          </div>
+          <div className="skill__list">
+              <div className="skill__icon-C"><FaCss3Alt/></div>
+              <p>CSS</p>
+          </div>
+          
+          
+          
+          
+          
+          
           
         </div>
       </div>
