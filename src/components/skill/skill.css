@@ -72,6 +72,21 @@
     font-size: 3rem;
     color:  #5484f3;
 }
+.skill__icon-Ra {
+    padding-right: 1rem;
+    font-size: 3rem;
+    color:  #fff;
+}
+.skill__icon-Js {
+    padding-right: 1rem;
+    font-size: 3rem;
+    color:  #fff;
+}
+.skill__icon-Re {
+    padding-right: 1rem;
+    font-size: 3rem;
+    color:  #fff;
+}
 
 /* ============= MEDIA QUERY (MEDIUM DEVICES) ===========*/
 

@@ -5,9 +5,12 @@ import {FaCss3Alt} from 'react-icons/fa'
 import {IoLogoJavascript} from 'react-icons/io'
 import {SiBootstrap} from 'react-icons/si'
 import {SiReact} from 'react-icons/si'
+import {SiRedux} from 'react-icons/si'
 import {BsGithub} from 'react-icons/bs'
 import {BiGitBranch} from 'react-icons/bi'
 import {FiDatabase} from 'react-icons/fi'
+import {TbApi} from 'react-icons/tb'
+import {VscJson} from 'react-icons/vsc'
 
 
 const Skill = () => {
@@ -23,6 +26,18 @@ const Skill = () => {
         <div className="skill__list">
               <div className="skill__icon-R"><SiReact/></div>
               <p>React</p>
+          </div>
+        <div className="skill__list">
+              <div className="skill__icon-R"><SiRedux/></div>
+              <p>React-Redux</p>
+          </div>
+          <div className="skill__list">
+              <div className="skill__icon-Ra"><TbApi/></div>
+              <p>Rest Api</p>
+          </div>
+          <div className="skill__list">
+              <div className="skill__icon-Js"><VscJson/></div>
+              <p>Json-server</p>
           </div>
           <div className="skill__list">
               <div className="skill__icon-S"><FiDatabase/></div>
@@ -52,6 +67,7 @@ const Skill = () => {
               <div className="skill__icon-C"><FaCss3Alt/></div>
               <p>CSS</p>
           </div>
+          
           
           
           
