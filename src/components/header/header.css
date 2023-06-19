@@ -63,6 +63,10 @@ header {
     font-weight: 1rem;
     font-size: 400;
 }
+.scroll__down:hover {
+    transform: rotate(0deg);
+   
+}
 
 
 /* ============= MEDIA QUERY (MEDIUM DEVICES) ===========*/
