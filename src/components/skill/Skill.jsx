@@ -11,6 +11,7 @@ import {BiGitBranch} from 'react-icons/bi'
 import {FiDatabase} from 'react-icons/fi'
 import {TbApi} from 'react-icons/tb'
 import {VscJson} from 'react-icons/vsc'
+import {SiTailwindcss} from 'react-icons/si'
 
 
 const Skill = () => {
@@ -48,14 +49,6 @@ const Skill = () => {
               <p>JavaScript</p>
           </div>
           <div className="skill__list">
-              <div className="skill__icon-G"><BiGitBranch/></div>
-              <p>Git</p>
-          </div>
-          <div className="skill__list">
-              <div className="skill__icon-Gh"><BsGithub/></div>
-              <p>Github</p>
-          </div>
-          <div className="skill__list">
               <div className="skill__icon-B"><SiBootstrap/></div>
               <p>Bootstrap</p>
           </div>
@@ -66,6 +59,18 @@ const Skill = () => {
           <div className="skill__list">
               <div className="skill__icon-C"><FaCss3Alt/></div>
               <p>CSS</p>
+          </div>
+          <div className="skill__list">
+              <div className="skill__icon-C"><SiTailwindcss/></div>
+              <p>Tailwind CSS</p>
+          </div>
+          <div className="skill__list">
+              <div className="skill__icon-G"><BiGitBranch/></div>
+              <p>Git</p>
+          </div>
+          <div className="skill__list">
+              <div className="skill__icon-Gh"><BsGithub/></div>
+              <p>Github</p>
           </div>
           
           
