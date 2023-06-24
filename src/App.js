@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer'
 import Mywork from './components/mywork/Mywork'
 import Skill from './components/skill/Skill'
 import Testimonial from './components/testimonial/Testimonial'
+import Counterup from './components/Counterup/Counterup'
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
       <Mywork/>
       <Skill/>
       <Testimonial/>
+      <Counterup/>
       <Contact/>
       <Footer/>
     </div>
