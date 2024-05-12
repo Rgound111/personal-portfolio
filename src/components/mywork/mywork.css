@@ -1,7 +1,8 @@
 #mywork {
-    margin-top: 4rem;
-    height: 215vh;
+    height: fit-content;
+    padding: 1rem 0;
     width: 100%;
+    user-select: none;
 }
 
 
@@ -18,16 +19,18 @@
 
 .work-container {
     display: flex;
+    gap: 1rem;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 8%;
+    /* justify-content: space-between; */
+    padding: 4%;
 }
 
 
 .box {
     width: 33%;
     margin: 0 1% 0 1%;
-    height: 300px;
+    height: fit-content;
+    padding: 1rem 0;
     position: relative;
     cursor: pointer;
 }
@@ -36,22 +39,27 @@
 #image {
     width: 100%;
     object-fit: cover;
+    border-radius: 8px;
+    padding: 2%;
 }
 
 .text {
     position: absolute;
-    padding: 10px;
     color: black;
     line-height: 1.2;
+    height: fit-content;
+    display: flex;
+    flex-direction:  column;
+    gap: 2rem;
+    border-radius: 8px;
+    padding: 5px 10px;
 }
 
-.text h2 {
-    margin: 5px 0;
-}
 
 .overlay {
     position: absolute;
-    height: 300px;
+    height: fit-content;
+    padding: 1rem 0;
     width: 350px;
     opacity: 0;
     /* background-color: rgba(52, 124, 233, 0.7); */
@@ -63,13 +71,14 @@
 
 .overlayfade {
     position: absolute;
-    height: 90%;
+    height:  101%;
     width: 100%;
     left: 0%;
     top: -5%;
     transition: all 0.3s ease;
     background-color: #4db5ff;
     border-radius: 8px;
+    z-index: 10;
 }
 
 .btn-w {
@@ -77,7 +86,7 @@
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
-    padding: .5rem 1.4rem;
+    padding: .2rem 0.7rem;
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid var(--color-primary);
@@ -93,10 +102,6 @@
 /* ============= MEDIA QUERY (MEIDUM DEVICES) ===========*/
 
 @media screen and (max-width: 1070px) {
-
-    #mywork {
-        height: 280vh;
-    }
 
     .work-container {
         display: flex;
@@ -125,10 +130,6 @@
 
 @media screen and (max-width: 500px) {
 
-    #mywork {
-        height: 305vh;
-    }
-
     .text {
         padding: 7px;
         line-height: 1.1;
@@ -141,15 +142,14 @@
     .overlay {
         position: absolute;
         height: 230px;
-        width: 350px;
+        width: 325x;
     }
 }
 
 @media screen and (max-width: 400px) {
     .overlay {
         position: absolute;
-        height: 230px;
-        width: 325px;
+        width: 310px;
     }
-    
+
 }

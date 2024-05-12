@@ -8,7 +8,6 @@ import {SiReact} from 'react-icons/si'
 import {SiRedux} from 'react-icons/si'
 import {BsGithub} from 'react-icons/bs'
 import {BiGitBranch} from 'react-icons/bi'
-import {FiDatabase} from 'react-icons/fi'
 import {TbApi} from 'react-icons/tb'
 import {VscJson} from 'react-icons/vsc'
 import {SiTailwindcss} from 'react-icons/si'
@@ -39,10 +38,6 @@ const Skill = () => {
           <div className="skill__list">
               <div className="skill__icon-Js"><VscJson/></div>
               <p>Json-server</p>
-          </div>
-          <div className="skill__list">
-              <div className="skill__icon-S"><FiDatabase/></div>
-              <p>SQL</p>
           </div>
           <div className="skill__list">
               <div className="skill__icon-J"><IoLogoJavascript/></div>
