@@ -23,26 +23,30 @@ const Mywork = () => {
       <div className=" container-w ">
         <div className="work-container">
 
-        <div className="box">
+          <div className="box">
             <img src={Bookstore} alt="Emart" id='image' />
             <div className="overlay overlayfade">
               <div className="text">
                 <div>
-                  <h2>Emart_Ecommerce_website</h2>
-                  <span>This is a Ecommerce website of Online Clothing Boutique ,Done Api integration while working on this, Used libraries like Redux ,Redux-persist , React-toastify and Used Tailwind CSS for styling.
+                  <h2>Online Bookstore App</h2>
+                  <span>This is a Online BookStore app where user can search any book by it's auhtor's name or by Book's Title.
                   </span>
                 </div>
                 <div>
                   <h2>Technologies used</h2>
                   <span> React.js</span>
                 </div>
-                <a href="https://book-store-app-orpin.vercel.app/" target={'_blank'} className='btn-w'>Link</a>
+                <div className='flex'>
+                  <a href="https://book-store-app-orpin.vercel.app/" rel='noreferrer' target={'_blank'} className='btn-w'>Link</a>
+                  <a href="https://github.com/Rgound111/BookStoreApp" rel='noreferrer' target={'_blank'} className='btn-w'>Github Link</a>
+
+                </div>
 
               </div>
             </div>
           </div>
 
-        <div className="box">
+          <div className="box">
             <img src={Todoapp} alt="Online Bookstore" id='image' />
             <div className="overlay overlayfade">
               <div className="text">
@@ -55,7 +59,10 @@ const Mywork = () => {
                   <h2>Technologies used</h2>
                   <span>Mongodb, expressjs, React.js</span>
                 </div>
-                <a href="https://backend-todo-app-woad.vercel.app" target={'_blank'} className='btn-w'>Link</a>
+                <div className='flex'>
+                  <a href="https://backend-todo-app-woad.vercel.app" rel='noreferrer' target={'_blank'} className='btn-w'>Link</a>
+                  <a href="https://github.com/Rgound111/Backend_TodoApp" rel='noreferrer' target={'_blank'} className='btn-w'>Github Link</a>
+                </div>
 
               </div>
             </div>
@@ -74,7 +81,10 @@ const Mywork = () => {
                   <h2>Technologies used</h2>
                   <span> React.js</span>
                 </div>
-                <a href="https://dynamic-lolly-866559.netlify.app" target={'_blank'} className='btn-w'>Link</a>
+                <div className='flex'>
+                  <a href="https://dynamic-lolly-866559.netlify.app" rel='noreferrer' target={'_blank'} className='btn-w'>Link</a>
+                  <a href="https://github.com/Rgound111/Emart" rel='noreferrer' target={'_blank'} className='btn-w'>Github Link</a>
+                </div>
 
               </div>
             </div>
@@ -92,8 +102,10 @@ const Mywork = () => {
                   <h2>Technologies used</h2>
                   <span> Html , CSS , Javascript </span>
                 </div>
-                <a href="https://rgound111.github.io/Realstate-website/" target={'_blank'} className='btn-w'>Link</a>
-
+                <div className='flex'>
+                  <a href="https://rgound111.github.io/Realstate-website/" rel='noreferrer' target={'_blank'} className='btn-w'>Link</a>
+                  <a href="https://github.com/Rgound111/Realstate-website" rel='noreferrer' target={'_blank'} className='btn-w'>Github Link</a>
+                </div>
               </div>
             </div>
           </div>
@@ -110,10 +122,7 @@ const Mywork = () => {
                   <h2>Technologies used</h2>
                   <span> React.js</span>
                 </div>
-
-
-                <a href="https://genuine-cobbler-b3cc2c.netlify.app" target={'_blank'} className='btn-w'>Link</a>
-
+                <a href="https://genuine-cobbler-b3cc2c.netlify.app" rel='noreferrer' target={'_blank'} className='btn-w'>Link</a>
               </div>
             </div>
           </div>
@@ -130,9 +139,7 @@ const Mywork = () => {
                   <h2>Technologies used</h2>
                   <span> React.js</span>
                 </div>
-
-                <a href="https://mellifluous-crumble-21efbe.netlify.app" target={'_blank'} className='btn-w'>Link</a>
-
+                <a href="https://mellifluous-crumble-21efbe.netlify.app" rel='noreferrer' target={'_blank'} className='btn-w'>Link</a>
               </div>
             </div>
           </div>
@@ -149,9 +156,7 @@ const Mywork = () => {
                   <h2>Technologies used</h2>
                   <span> Html5 , CSS3 </span>
                 </div>
-
-                <a href="https://rgound111.github.io/Registration-form/" target={'_blank'} className='btn-w'>Link</a>
-
+                <a href="https://rgound111.github.io/Registration-form/" rel='noreferrer' target={'_blank'} className='btn-w'>Link</a>\
               </div>
             </div>
           </div>
@@ -170,7 +175,7 @@ const Mywork = () => {
                   <span> React.js ,Json-server , RestApi </span>
                 </div>
 
-                <a href="https://papaya-marzipan-f944fd.netlify.app" target={'_blank'} className='btn-w'>Link</a>
+                <a href="https://papaya-marzipan-f944fd.netlify.app" rel='noreferrer' target={'_blank'} className='btn-w'>Link</a>
 
               </div>
             </div>
@@ -189,7 +194,7 @@ const Mywork = () => {
                   <span> Html ,CSS ,Javascript </span>
                 </div>
 
-                <a href="https://rgound111.github.io/Restaurant-website/" target={'_blank'} className='btn-w'>Link</a>
+                <a href="https://rgound111.github.io/Restaurant-website/" rel='noreferrer' target={'_blank'} className='btn-w'>Link</a>
 
               </div>
             </div>
@@ -208,7 +213,7 @@ const Mywork = () => {
                   <span> Bootstrap 5 </span>
                 </div>
 
-                <a href=" https://rgound111.github.io/Website-Bootstrap/" target={'_blank'} className='btn-w'>Link</a>
+                <a href=" https://rgound111.github.io/Website-Bootstrap/" rel='noreferrer' target={'_blank'} className='btn-w'>Link</a>
 
               </div>
             </div>

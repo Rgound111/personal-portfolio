@@ -86,7 +86,7 @@
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
-    padding: .2rem 0.7rem;
+    padding: .4rem 1rem;
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid var(--color-primary);
@@ -97,6 +97,11 @@
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
+}
+
+.flex{
+    display: flex; 
+    gap: 8px;
 }
 
 /* ============= MEDIA QUERY (MEIDUM DEVICES) ===========*/

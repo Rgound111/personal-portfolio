@@ -104,7 +104,8 @@
     }
 
     #skill {
-        height: 80vh;
+        height: fit-content;
+        padding: 1rem 0;
     }
 }
 
