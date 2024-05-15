@@ -7,7 +7,7 @@ const Footer = () => {
       <div className=" container footer__container">
         <div><p>Created By</p></div>
         <div className=' footer__clr'><p>Rohit Gound</p></div>
-        <div><p>| 2023 All rights reserved.</p></div>
+        <div><p>2024 All rights reserved.</p></div>
       </div>
     </div>
   )

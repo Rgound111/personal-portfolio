@@ -52,7 +52,7 @@ const Mywork = () => {
               <div className="text">
                 <div>
                   <h2>TodoApp</h2>
-                  <span>A Fullstcak todo app Where user can sign in and add their tasks and update and delete their tasks.
+                  <span>A Fullstack todo app Where user can sign in and add their tasks and update and delete their tasks.
                   </span>
                 </div>
                 <div>
@@ -74,12 +74,12 @@ const Mywork = () => {
               <div className="text">
                 <div>
                   <h2>Emart_Ecommerce_website</h2>
-                  <span>This is a Ecommerce website of Online Clothing Boutique ,Done Api integration while working on this, Used libraries like Redux ,Redux-persist , React-toastify and Used Tailwind CSS for styling.
+                  <span>A Ecommerce website of Online Clothing where user can add and remove products increase their quantity etc...
                   </span>
                 </div>
                 <div>
                   <h2>Technologies used</h2>
-                  <span> React.js</span>
+                  <span> React.js, Redux</span>
                 </div>
                 <div className='flex'>
                   <a href="https://dynamic-lolly-866559.netlify.app" rel='noreferrer' target={'_blank'} className='btn-w'>Link</a>
@@ -133,7 +133,7 @@ const Mywork = () => {
               <div className="text">
                 <div>
                   <h2>Todos list </h2>
-                  <span> This is an to do app where u can create read and delete tasks , That data will be stored in Localstorage of the browser . </span>
+                  <span> This is an to do app where u can create read and delete tasks , That data will be stored in Localstorage of the browser. </span>
                 </div>
                 <div>
                   <h2>Technologies used</h2>
@@ -150,13 +150,13 @@ const Mywork = () => {
               <div className="text">
                 <div>
                   <h2>Registration-form </h2>
-                  <span> This is an registration form  and it's available with total password validation </span>
+                  <span> This is an registration form  and it's available with total password validation</span>
                 </div>
                 <div>
                   <h2>Technologies used</h2>
                   <span> Html5 , CSS3 </span>
                 </div>
-                <a href="https://rgound111.github.io/Registration-form/" rel='noreferrer' target={'_blank'} className='btn-w'>Link</a>\
+                <a href="https://rgound111.github.io/Registration-form/" rel='noreferrer' target={'_blank'} className='btn-w'>Link</a>
               </div>
             </div>
           </div>

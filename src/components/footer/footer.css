@@ -4,11 +4,20 @@
 
 .footer__container{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     column-gap: 1.5rem;
     font-size: 1.2rem
 }
 
 .footer__clr{
     color: var(--color-primary);
+}
+
+@media screen and (max-width: 650px) {
+
+    .footer__container{
+        column-gap: 0.5rem;
+        font-size: 0.9rem
+    }
+
 }
