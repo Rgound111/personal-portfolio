@@ -73,19 +73,18 @@ const Mywork = () => {
             <div className="overlay overlayfade">
               <div className="text">
                 <div>
-                  <h2>Emart_Ecommerce_website</h2>
+                  <h2>Ecommerce_website</h2>
                   <span>A Ecommerce website of Online Clothing where user can add and remove products increase their quantity etc...
                   </span>
                 </div>
                 <div>
                   <h2>Technologies used</h2>
-                  <span> React.js, Redux</span>
+                  <span>React.js, Redux</span>
                 </div>
                 <div className='flex'>
                   <a href="https://dynamic-lolly-866559.netlify.app" rel='noreferrer' target={'_blank'} className='btn-w'>Link</a>
                   <a href="https://github.com/Rgound111/Emart" rel='noreferrer' target={'_blank'} className='btn-w'>Github Link</a>
                 </div>
-
               </div>
             </div>
           </div>
@@ -95,12 +94,12 @@ const Mywork = () => {
             <div className="overlay overlayfade">
               <div className="text">
                 <div>
-                  <h2>RealState  </h2>
-                  <span> A responsive realEstate website to test my Html5,CSS3,JavaScript. I have made carousel so image will slides in every particular time(s). </span>
+                  <h2>RealEstate</h2>
+                  <span> A responsive realEstate website to test my Html5,CSS3,JavaScript.</span>
                 </div>
                 <div>
                   <h2>Technologies used</h2>
-                  <span> Html , CSS , Javascript </span>
+                  <span> Html , CSS , Javascript.</span>
                 </div>
                 <div className='flex'>
                   <a href="https://rgound111.github.io/Realstate-website/" rel='noreferrer' target={'_blank'} className='btn-w'>Link</a>

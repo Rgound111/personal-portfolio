@@ -1,3 +1,9 @@
+#skill {
+    height: fit-content;
+    padding: 1rem 0;
+    background: #f3f3f3;
+}
+
 .skill__head {
     text-align: center;
     margin-bottom: 2rem;
@@ -25,6 +31,7 @@
 }
 
 .skill__list:hover {
+    color: #fff;
     background: rgba(0, 0, 0, 1);
     border-radius: 1.2rem;
     transform: var(--transition);
@@ -81,19 +88,24 @@
 .skill__icon-Ra {
     padding-right: 1rem;
     font-size: 3rem;
-    color: #fff;
+    color: #6a6a6a;
 }
 
 .skill__icon-Js {
     padding-right: 1rem;
     font-size: 3rem;
-    color: #fff;
+    color: #969393;
 }
 
 .skill__icon-Re {
     padding-right: 1rem;
     font-size: 3rem;
-    color: #fff;
+    /* color: #fff; */
+}
+
+.skill__list_items{
+    display: flex;
+    align-items: center;
 }
 
 /* ============= MEDIA QUERY (MEDIUM DEVICES) ===========*/
@@ -101,11 +113,6 @@
 @media screen and (max-width: 1024px) {
     .skills__list {
         grid-template-columns: repeat(3, 1fr);
-    }
-
-    #skill {
-        height: fit-content;
-        padding: 1rem 0;
     }
 }
 
@@ -116,9 +123,6 @@
     .skills__list {
         grid-template-columns: repeat(2, 1fr);
     }
-    #skill {
-        height: 90vh;
-    }
 }
 
 @media screen and (max-width: 480px) {
@@ -126,18 +130,4 @@
         grid-template-columns: repeat(1, 1fr);
         row-gap: 1rem;
     }
-
-    #skill {
-        height: 160vh;
-    }
-
-}
-
-@media screen and (max-width: 400px) {
-    .skills__list {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 1rem;
-    }
-
-
 }

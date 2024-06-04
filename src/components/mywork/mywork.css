@@ -118,14 +118,8 @@
     }
 }
 
-@media screen and (max-width: 900px) {
 
-    .box {
-        width: 70%;
-    }
-}
-
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
 
     .box {
         width: 80%;

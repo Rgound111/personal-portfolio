@@ -37,10 +37,12 @@
 .about__content li {
    
     font-size: 1rem;
-    color: var(--color-light);
-    font-weight: 800;
-    font-size: 0.9rem;
-    list-style: disc;
+    /* color: var(--color-light); */
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 1.8rem;
+    list-style: none;
 }
 
 .about__content a {
@@ -68,12 +70,6 @@
     .about__content a {
         margin-top: 1.7rem;
     }
-
-    .about__content li {
-        font-size: 0.9rem;
-        font-weight: 700;
-    }
-
 }
 
 
@@ -96,15 +92,9 @@
         text-align: center;
     }
 
-    .about__content li {
-        font-size: 0.9rem;
-        font-weight: 600;
-    }
-
     .about__content{
-        width: 85%;
-        padding: 0 7%;
-       
+        /* width: 85%; */
+        padding: 0 7%;       
     }
 
 }
