@@ -49,13 +49,6 @@ const Skill = () => {
             <p>Rest Api</p>
             </div>
           </div>
-          <div className="skill__list">
-            <div className="skill__list_items">
-
-            <div className="skill__icon-Js"><VscJson /></div>
-            <p>Json-server</p>
-            </div>
-          </div>
 
           <div className="skill__list">
             <div className="skill__list_items">

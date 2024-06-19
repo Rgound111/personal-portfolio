@@ -1,7 +1,15 @@
+#about{
+    height: fit-content;
+    --tw-bg-opacity: 1;
+    background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
+}
+
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    --tw-bg-opacity: 1;
+    background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
 }
 
 .about__me {
@@ -93,7 +101,6 @@
     }
 
     .about__content{
-        /* width: 85%; */
         padding: 0 7%;       
     }
 

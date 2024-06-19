@@ -1,5 +1,5 @@
 nav{
-    background: rgba( 0, 0, 0, 0.3);
+    background: rgba( 0, 0, 0, 0.25);
     width: max-content;
     padding: 0.7rem 1.7rem;
     z-index: 50;
@@ -29,4 +29,11 @@ nav a:hover{
 nav a.active{
     background: var(--color-bg);
     color: var(--color-white);
+}
+
+@media screen and (max-width: 768px) {
+ nav{
+    
+    padding: 0.3rem 1.7rem;
+ }
 }
